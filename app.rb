@@ -5,13 +5,18 @@ class App < Sinatra::Base
   "Hello, World!"
   end
 
-  get '/name' do
-    "My name is Justin"
-  end
+  # get '/name' do
+  #   "My name is Justin"
+  # end
 
-  get '/hometown' do
-    "My hometown is Anamop"
-  end
+  get('/name'){"My name is Justin"}
+
+
+  # get '/hometown' do
+  #   "My hometown is Anamop"
+  # end
+
+  get('/hometown'){"My hometown is Anamop"}
 
   get('/favorite-song'){"My favorite song is Orion"}
 end
