@@ -13,5 +13,5 @@ class App < Sinatra::Base
     "My hometown is Anamop"
   end
 
-  get('favorite-song'){"My favorite song is Orion"}
+  get('favorite-song'){"My favorite song is Orion"} end
 end
